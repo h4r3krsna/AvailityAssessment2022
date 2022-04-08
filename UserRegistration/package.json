@@ -1,0 +1,14 @@
+{
+  "name": "react-registration-form",
+  "version": "1.0.0",
+  "description": "User registration request form for Availity assessment (based on template from https://codesandbox.io/s/2oow9n5p7r) using React, Material UI, and Validator JS",
+  "keywords": ["material-ui", "react", "validator"],
+  "homepage": "https://msreedaran.dev",
+  "main": "index.js",
+  "dependencies": {
+    "validator": "9.2.0",
+    "react-dom": "16.0.0",
+    "react": "16.0.0",
+    "material-ui": "0.20.0"
+  }
+}
