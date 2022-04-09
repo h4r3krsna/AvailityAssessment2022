@@ -22,7 +22,8 @@ public class LispChecker {
 			if (c == '(') {
 				leftParenCount++;
 			} else if (c == ')') {
-				leftParenCount--;
+				if (--leftParenCount < 0)
+					return false;
 			}
 		}
 
